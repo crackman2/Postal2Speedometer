@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Compiler Value="G:\lazarus\fpc\3.2.2\bin\i386-win32\fpc.exe" Date="1449426723"/>
+  <Params Value=" -MObjFPC -Scghi -CX -WR -O3 -Xs -XX -WG -l -vewnhibq -vm4055 -FiG:\Script\Lazarus\Postal2Speedometer\lib\i386-win32 -FuG:\lazarus\lcl\units\i386-win32\win32 -FuG:\lazarus\lcl\units\i386-win32 -FuG:\lazarus\components\freetype\lib\i386-win32 -FuG:\lazarus\components\lazutils\lib\i386-win32 -FuG:\lazarus\packager\units\i386-win32 -FuG:\Script\Lazarus\Postal2Speedometer\ -FUG:\Script\Lazarus\Postal2Speedometer\lib\i386-win32\ -FEG:\Script\Lazarus\Postal2Speedometer\ -oG:\Script\Lazarus\Postal2Speedometer\Postal2Speedometer.exe -dLCL -dLCLwin32 Postal2Speedometer.lpr"/>
+</CONFIG>

@@ -1,0 +1,52 @@
+object FormOverlay: TFormOverlay
+  Left = 1472
+  Height = 344
+  Top = 86
+  Width = 370
+  AlphaBlend = True
+  BorderIcons = []
+  BorderStyle = bsNone
+  ClientHeight = 344
+  ClientWidth = 370
+  Color = clSilver
+  Font.Name = 'Liberation Mono'
+  FormStyle = fsSystemStayOnTop
+  OnCreate = FormCreate
+  Position = poScreenCenter
+  LCLVersion = '2.2.6.0'
+  object LabelCounter: TLabel
+    Left = 8
+    Height = 45
+    Top = 8
+    Width = 24
+    Alignment = taCenter
+    Caption = '1'
+    Font.CharSet = EASTEUROPE_CHARSET
+    Font.Color = clMoneyGreen
+    Font.Height = -40
+    Font.Name = 'Liberation Mono'
+    Font.Quality = fqNonAntialiased
+    Font.Style = [fsBold]
+    Layout = tlCenter
+    ParentColor = False
+    ParentFont = False
+  end
+  object TimerUpdateSpeed: TTimer
+    Enabled = False
+    Interval = 1
+    OnTimer = TimerUpdateSpeedTimer
+    Left = 16
+    Top = 80
+  end
+  object TimerUpdatePointers: TTimer
+    Interval = 2000
+    OnTimer = TimerUpdatePointersTimer
+    Left = 72
+    Top = 16
+  end
+  object TimerUpdateObjects: TTimer
+    OnTimer = TimerUpdateObjectsTimer
+    Left = 174
+    Top = 97
+  end
+end

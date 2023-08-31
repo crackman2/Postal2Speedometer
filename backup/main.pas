@@ -102,7 +102,8 @@ begin
     Self.Width := rect.Right - rect.Left;
     Self.Height := rect.Bottom - rect.Top;
 
-    LabelCounter.Top := Self.Height - (longint(Self.Height) div 3);
+
+    LabelCounter.Top := Self.Height - (longint(Self.Height) div 2);
     LabelCounter.Left := Self.Width div 2;
   end
   else
@@ -145,7 +146,7 @@ begin
   SetWindowPos(Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE or
     SWP_NOSIZE or SWP_NOACTIVATE);
   style := GetWindowLong(Handle, GWL_EXSTYLE);
-  style := style or WS_EX_TOPMOST or WS_EX_NOACTIVATE;
+  style := style or WS_EX_TOPMOST or WS_EX_NOACTIVATE or WS_EX_TRANSPARENT;
   SetWindowLong(Handle, GWL_EXSTYLE, style);
 
 

@@ -10,7 +10,7 @@
         <IsPartOfProject Value="True"/>
         <EditorIndex Value="1"/>
         <CursorPos X="15"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -19,9 +19,10 @@
         <ComponentName Value="FormOverlay"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <TopLine Value="100"/>
-        <CursorPos X="15" Y="27"/>
-        <UsageCount Value="24"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="83"/>
+        <CursorPos X="5" Y="107"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -31,18 +32,17 @@
         <UnitName Value="CProcMem"/>
         <EditorIndex Value="4"/>
         <CursorPos Y="84"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="cplayer.pas"/>
         <IsPartOfProject Value="True"/>
         <UnitName Value="CPlayer"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="246"/>
-        <CursorPos X="5" Y="285"/>
-        <UsageCount Value="24"/>
+        <TopLine Value="116"/>
+        <CursorPos Y="179"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -52,7 +52,7 @@
         <EditorIndex Value="3"/>
         <TopLine Value="72"/>
         <CursorPos X="36" Y="112"/>
-        <UsageCount Value="24"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>

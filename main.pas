@@ -59,8 +59,8 @@ begin
       //digit is 25px wide
       LabelCounter.Caption := FloatToStr(TotalVelocity);
 
-      LabelCounter.Left := (Self.Width div 2) -
-        ((25 div 2) * (Length(FloatToStr(TotalVelocity))));
+      LabelCounter.Left := (Self.Width div 2) - ((25 div 2) *
+        (Length(FloatToStr(TotalVelocity))));
 
       LabelCounter.Alignment := taCenter;
       LabelCounter.Layout := tlCenter;
@@ -145,7 +145,7 @@ begin
   SetWindowPos(Handle, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE or
     SWP_NOSIZE or SWP_NOACTIVATE);
   style := GetWindowLong(Handle, GWL_EXSTYLE);
-  style := style or WS_EX_TOPMOST or WS_EX_NOACTIVATE;
+  style := style or WS_EX_TOPMOST or WS_EX_NOACTIVATE or WS_EX_TRANSPARENT;
   SetWindowLong(Handle, GWL_EXSTYLE, style);
 
 
